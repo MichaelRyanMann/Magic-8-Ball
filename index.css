@@ -1,0 +1,87 @@
+body {
+ width: 90%;
+ margin: 0 auto;
+ height: 90%;
+ background-color: #512397 ;
+}
+
+form {
+    border: 5px solid #774A68 ;
+    margin: 1vh auto 1vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:1vh;
+    padding-bottom: 2vh;
+    background-color:  #5B4E5F;
+}
+
+.centerButton {
+    width: 40vw;
+    margin: 1vh auto 0 auto;
+    font-size: 2.5vw;
+    font-family: 'Concert One';
+}
+
+.green {
+    border: 1px solid purple;
+    background-color: #512397;
+    color: black;
+}
+
+.red {
+    border: 1px solid lightcoral;
+    background-color: #DFA2C7;
+}
+
+.eightBall {
+    border: 5px solid #774A68;
+    background-image: url(images/8ball.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 6vw;
+    margin: 1vh auto;
+    font-family: 'Sigmar One';
+}
+
+#questionBox{
+    width: 75vw;
+    margin: 0 auto;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 1vh;
+    border: 1px solid darkblue;
+    background-color: lightblue;
+    font-family: 'Concert One';
+}
+
+label {
+    font-size: 3.5vw;
+    text-align: center;
+    padding-bottom: 2vh;
+    margin: 0 auto;
+    font-family: 'Concert One';
+}
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#response {
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    font-family: 'Concert One';
+    
+}
+
+
